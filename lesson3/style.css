@@ -1,0 +1,78 @@
+img {
+  border: 2px solid black;
+ width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 147px;
+  right: 140px;
+}
+
+h1 {
+ color:rgba(252, 225, 151, 0.726); 
+ font-size: 56px;
+ border-style: groove;
+ border-color: rgb(213, 242, 255);
+    font-family: "Trattatello", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-weight: 800;
+    font-variant: inherit;
+
+}
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: small-caps;
+}
+
+ul {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: oblique;
+    font-weight: 200;
+    font-variant: unset;
+}
+
+
+
+body {
+    background: url(city.png) repeat-x 0 100% fixed,
+                linear-gradient(to top, #5080b1, #004e8c) fixed;
+    animation: city 30s linear infinite;
+    -webkit-animation: city 30s linear infinite;
+   }
+   @keyframes city {
+    from { background-position: -1000px 100%, 0 0;}
+    to { background-position: 0 100%, 0 0; }
+   }
+   @-webkit-keyframes city {
+    from { background-position: -1000px 100%, 0 0;}
+    to { background-position: 0 100%, 0 0; }
+   }
+   main {
+    width: 80%;
+    min-height: 800px;
+    display: block;
+    margin: auto;
+    background: rgba(255,255,255,0.6);
+    padding: 20px;
+   }
+/* body {
+    height: 100%;
+    background: url(bg.png) repeat-x 0 100% fixed,
+  linear-gradient(to top, #5080b1, #004e8c) fixed;
+    font-size: 32px;
+
+} */
+
+
+hr.style-one {
+    border: 122px;
+    height: 1120px;
+    background: rgb(255, 255, 255);
+    background-image: linear-gradient(to right, #ccc, rgb(0, 108, 158), #ccc);
+}
+
+hr {
+    color:red;
+}
