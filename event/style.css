@@ -1,0 +1,70 @@
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+*{
+    font-size: 'Popins', sans-serif; 
+    box-sizing: border-box; 
+}
+html{
+    min-height: 100%;
+}
+body{
+    height: 100%; 
+}
+header{
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-around; 
+    align-items: center; 
+    background: #0e0d1b url(bgcheader.png) 50% no-repeat; 
+    color: white; 
+    height: 100vh;
+    position: relative;
+    margin: 0; 
+}
+.logo{
+    position: absolute; 
+    padding: 0; 
+    font-size: 34px; 
+    left: 17.5%; 
+    top: 4%; 
+}
+.header_navbar{
+    position:absolute;
+    right: 17vw; 
+    width: 19vw; 
+    top: 4%; 
+}
+.navbar >h2{
+    display: inline-block; 
+    margin-left: 1%; 
+    margin-right: 1%; 
+    font-size: 16px; 
+}
+.navbar>h2:hover{
+    color:#e71cb4;
+    text-decoration: underline; 
+}
+.text{
+    text-align: center;
+    font-size: 30px; 
+    font-family: 'Popins', sans-serif;
+    font-weight: 400;
+}
+.text >h1{
+    font-size: 60px; 
+}
+.text button{
+    font-size: 16px; 
+    color: white; 
+    font-family: 'Popins', sans-serif;    
+    width: 18vw; 
+    height: 6vh; 
+    border: 2px solid white; 
+    border-radius: 8px;
+    background: transparent; 
+}
+.text button:active{
+    transform: scale(1.2);
+}
+
+

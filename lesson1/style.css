@@ -1,0 +1,25 @@
+/* @font-face{
+    font-family: 'Proxima Nova'; 
+
+src: url ('fonts/Proxima Nova Extra Condensed Black Italic.otf') format('otf'); 
+font-weight: normal;
+
+font-style: normal;
+
+} 
+
+body {
+    font-family: 'Proxima Nova'; 
+
+} */
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('fonts/Proxima Nova Black.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Proxima Nova', Arial, sans-serif;
+}
